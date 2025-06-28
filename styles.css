@@ -1,1 +1,146 @@
-/* your code here */
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f6f6f6;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .product {
+      display: flex;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .product__photo {
+      flex: 1;
+      background: #eafaf1;
+      padding: 20px;
+    }
+
+    .photo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .photo-main {
+      position: relative;
+    }
+
+    .photo-main img {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .controls {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .controls i {
+      margin-left: 10px;
+      cursor: pointer;
+      color: #555;
+    }
+
+    .photo-album ul {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .photo-album img {
+      width: 60px;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .photo-album img:hover {
+      border-color: #42b72a;
+    }
+
+    .product__info {
+      flex: 1;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .title h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #333;
+    }
+
+    .title span {
+      color: #888;
+      font-size: 14px;
+    }
+
+    .price {
+      font-size: 24px;
+      color: #42b72a;
+      margin: 20px 0;
+    }
+
+    .variant h3 {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .variant ul {
+      display: flex;
+      gap: 10px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .variant img {
+      width: 50px;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .variant img:hover {
+      border-color: #1877f2;
+    }
+
+    .description h3 {
+      margin-top: 30px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .description ul {
+      padding-left: 20px;
+      color: #555;
+    }
+
+    .add-to-cart {
+      margin-top: 30px;
+      padding: 12px;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .add-to-cart:hover {
+      background-color: #145dbf;
+    }
